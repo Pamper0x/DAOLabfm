@@ -2,14 +2,57 @@
     margin: 0px;
     padding: 0px;
 }
-nav {
-    background-color: #cdab78;
-    max-height: 100px;
-    padding-top: 10px;
-}
 .row {
     margin-top: 30px;
     margin-bottom: 35px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+link {
+    font-family: 'Roboto', sans-serif;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    color: rgb(77, 76, 76);
+}
+img {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.inline-me {
+    display:inline;
+}
+.card-img {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+#bg-head { 
+	background-image: url("../img/_d7fe023e-bc03-43b8-8b24-3c8cb78ab08e.jpeg");
+	background-size:cover; 
+	height: 275px; 
+	width:auto;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+} 
+.deco-h {
+    display:inline-block;
+    background: rgb(184, 0, 147);
+    box-shadow: .5em 0 0 rgb(184, 0, 147), -.5em 0 0 rgb(184, 0, 147);
+    color:white;
+    opacity: 0.91;
+}
+.placeholder-wave {
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
 }
 /*Fonts*/
 h1 {
@@ -32,24 +75,9 @@ h4 {
     font-size: 1rem;
     color: rgb(77, 76, 76);
 }
-p {
-    font-family: 'Roboto', sans-serif;
+.pad-card--top {
+    padding-top: 40px;
 }
-link {
-    font-family: 'Roboto', sans-serif;
-}
-button {
-    font-family: 'Roboto', sans-serif;
-}
-a {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1rem;
-    color: rgb(77, 76, 76);
-}
-img {
-    margin-left: 17px;
-    margin-right: 17px;
-}
-.inline-me {
-    display:inline;
+.pad-card--bot {
+    padding-bottom: 40px;
 }
